@@ -1,0 +1,8 @@
+tinggi = 5
+i = 1
+
+while True:
+  print(" " * (tinggi - i) + "*" * i)
+  i += 1
+  if i > tinggi:
+    break
