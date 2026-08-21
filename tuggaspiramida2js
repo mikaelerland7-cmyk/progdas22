@@ -1,0 +1,9 @@
+let tinggi = 5;
+let i = 1;
+
+do {
+    let  spasi = " ".repeat(tinggi - i);
+    let  bintang = "*".repeat(i);
+    console.log(spasi + bintang);
+    i++;
+} while (i <= tinggi);
