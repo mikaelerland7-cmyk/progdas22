@@ -1,0 +1,15 @@
+nilai = 85
+
+match nilai:
+    case nilai if nilai >= 90:
+        print("Grade A")
+    case nilai if nilai >= 80:
+        print("Grade B")
+    case nilai if nilai >= 70:
+        print("Grade C")
+    case nilai if nilai >= 60:
+        print("Grade D")
+    case _:
+        print("Grade E")
+
+   
