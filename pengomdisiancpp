@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int nilai;
+
+    cout << "Masukkan nilai ujian (0-100): ";
+    cin >> nilai;
+
+    if (nilai >= 90) {
+        cout << "Nilai Huruf: A";
+    } else if (nilai >= 80) {
+        cout << "Nilai Huruf: B";
+    } else if (nilai >= 70) {
+        cout << "Nilai Huruf: C";
+    } else {
+        cout << "Nilai Huruf: D";
+    }
+
+    return 0;
+}
