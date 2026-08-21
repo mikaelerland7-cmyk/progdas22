@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 5;
+    while (rows >= 1) {
+        for (int i = 0; i < rows; i++) {
+            cout << "*";
+        }
+        cout << endl;
+        rows -= 1; // rows = rows - 1
+    }
+    return 0;
+}
